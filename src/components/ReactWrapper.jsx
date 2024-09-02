@@ -1,5 +1,5 @@
 import { useCallback, useMemo, useState } from 'react';
-import { useResizeObserver } from 'beautiful-react-hooks';
+import useResizeObserver from 'beautiful-react-hooks/useResizeObserver';
 
 // Store
 import { useGameStore } from '../zustand/store';
